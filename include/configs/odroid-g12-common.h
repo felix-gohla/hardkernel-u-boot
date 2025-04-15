@@ -311,7 +311,7 @@
 
 #define CONFIG_BOOTCOMMAND			"run boot_default"
 
-#define CONFIG_BOOTAREA_SIZE			(1 * SZ_1M)
+#define CONFIG_BOOTAREA_SIZE			(2 * SZ_1M)
 #define CONFIG_MBR_SIZE				512
 #define CONFIG_ENV_SIZE				(64 * SZ_1K)
 #define CONFIG_UBOOT_SIZE			(CONFIG_BOOTAREA_SIZE - \
